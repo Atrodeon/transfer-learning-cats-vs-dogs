@@ -1,3 +1,6 @@
+#O notebook deve ser aberto no Google Colab, pois o visualizador do GitHub pode apresentar erros com arquivos contendo metadados de widgets.
+
+
 # Projeto Transfer Learning - Cats vs Dogs
 
 Este projeto utiliza Transfer Learning com Deep Learning, usando Python e Google Colab, para classificar imagens de gatos e cachorros.
