@@ -1,10 +1,22 @@
-#O notebook deve ser aberto no Google Colab, pois o visualizador do GitHub pode apresentar erros com arquivos contendo metadados de widgets.
-## Como visualizar o notebook
+## Como visualizar o notebook corretamente
 
-Se o notebook não abrir corretamente no GitHub, clique com o botão direito sobre o arquivo `.ipynb` e copie o link.  
-Depois, abra o [Google Colab](https://colab.research.google.com/) e escolha 'Abrir do GitHub' colando o link do arquivo.
+O visualizador de notebooks do GitHub pode apresentar erros como  
+"The 'state' key is missing from 'metadata.widgets'. Add 'state' to each, or remove 'metadata.widgets'."  
+Isso acontece por conta de metadados internos do Colab.
 
-Ou faça o download do arquivo e abra direto no Colab.
+**Como abrir sem erro:**
+1. No repositório, clique sobre o arquivo `.ipynb` com o botão direito e selecione “Copiar link”.
+2. Acesse [Google Colab](https://colab.research.google.com/).
+3. Clique em ‘Arquivo’ > ‘Abrir do GitHub’.
+4. Cole o link do notebook e clique em “Abrir”.
+5. O notebook vai funcionar normalmente na interface do Colab.
+
+**Alternativa:**  
+Faça download do notebook (`.ipynb`) e abra direto no Colab usando ‘Arquivo’ > ‘Fazer upload’.
+
+Se precisar de prints de tela para entrega, utilize o Colab que irá visualizar sem problemas!
+---------------------------------------------------------------------------------------------------------------
+
 
 
 # Projeto Transfer Learning - Cats vs Dogs
